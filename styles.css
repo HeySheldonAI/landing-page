@@ -94,8 +94,14 @@ body {
     padding: 10px 25px;
     margin: 25px 10px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 
 }
+
+.cta button:active {
+    transform: scale(0.95);
+  }
+
 
 .cta__install {
     background-color: #09BC8F;
@@ -173,6 +179,12 @@ iframe{
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.demoArea button:active{
+    transform: scale(0.95);
 }
 
 /* SheldonUsage */
@@ -463,6 +475,39 @@ hr {
 
 
 @media  (max-width:480px) {
+
+    .navbar__brandName{
+        margin-left: 27px;
+    }
+
+    .heading{
+        margin: 2rem 2rem 0;
+    }
+
+    .subtitle{
+        font-size: 1rem;
+    }
+   .cta button{
+    font-size: 1rem;
+    margin: 10px;
+    
+   
+   }
+
+   .headingImageDiv{
+    width: 18px;
+    height: 18px;
+   }
+
+   .headingImage{
+    border: solid 3px #63A0E8A6;
+    height: 20px;
+    width:20px
+   }
+
+   .text__professionals{
+    font-size: 0.75rem;
+   }
 
     iframe{
         width:236px;
