@@ -480,4 +480,11 @@ hr {
         display: none;
     }
 
+    
+
+}
+
+.nolink {
+    color: #ffffff;
+    text-decoration: none;
 }
