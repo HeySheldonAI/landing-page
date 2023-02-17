@@ -645,22 +645,21 @@ hr {
     }
 
     .sheldonUsage__heading {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     .sheldonUsageImage{
         display: none;
     }
 
-    .sheldonUsage__fifthRow{
-        width: 89.8vw;
-    }
+
 
     .knowledgeBox{
         height: 40vw;
-        width:89.8vw;
+        width:100vw;
         margin: auto;
-        padding: 10px   ;
+        padding: 10px;
+        border-radius: 0;
     }
 
     
@@ -669,12 +668,12 @@ hr {
     .sheldonUsage__forthRow,
     .sheldonUsage__fifthRow{
         height:fit-content;
-        width: 89.8vw;
-        padding: 10px;
+        width: 100vw;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        border-radius: 0;
 
     }
-
-
 
 
    .favWebsites__title {
@@ -694,6 +693,9 @@ hr {
         height: 115px;
     }
     
+    .before-click-vec1{
+        font-size:8vw ;
+    }
     
     .before-click-vec3,
     .before-click-vec5 {
@@ -773,7 +775,7 @@ hr {
     }
 
     .users__title {
-        font-size: 6svw;
+        font-size: 6vw;
     }
 
     .users__review1{
@@ -809,11 +811,8 @@ hr {
     }
 
 
-
-
-
     .favWebsites__title {
-        font-size: 4.7vw;
+        font-size: 5vw;
     }
 
     .favwebsites__img img {
@@ -831,8 +830,9 @@ hr {
 
 
     .troubleshooting {
-        font-size: 2.5vw;
-        padding: 0 5vw;
+        font-size: 3vw;
+        padding: 20px 10px;
+        height: fit-content;
     }
 
     .faq__title {
@@ -859,8 +859,14 @@ hr {
 
     .footer {
         font-size: 2vw;
-        height: 20vw;
+        height: fit-content;
+        padding: 20px 5px ;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    .footer-row{
+        margin: 10px;
     }
 
 }
