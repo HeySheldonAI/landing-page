@@ -1,7 +1,25 @@
+
+
+.terms{
+    margin: 0 20vw ;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+@media (max-width:800px)  {
+    .terms{
+        margin: 8px;
+    }
+}
+
+
 /* Navbar */
 
 body {
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -570,6 +588,7 @@ hr {
     color: #ffffff;
     font-size: 1.3vw;
 }
+
 
 .nolink {
     text-decoration: none;
