@@ -1,18 +1,15 @@
-div{
-    visibility: auto;
-}
 
-.terms{
+.terms,.privacy{
     margin: 0 20vw ;
     
 }
 
-h1{
+.terms h1{
     text-align: center;
 }
 
 @media (max-width:800px)  {
-    .terms{
+    .terms,.privacy{
         margin: 8px;
     }
 }
@@ -597,6 +594,9 @@ hr {
     color: inherit;
 }
 
+.footer-link{
+    margin: 3px 0;
+}
 
 @media (max-width:480px) {
 
