@@ -50,6 +50,8 @@ vec5.addEventListener('click', () => {
 
 // FAQS
 
+
+
 document.getElementById('pyqVector1').addEventListener('click', () => {
     document.querySelector('.faqAns1').classList.toggle('hide-ans');
     document.querySelector('#pyqVector1').classList.toggle('rotate')
