@@ -77,3 +77,7 @@ document.getElementById('pyqVector4').addEventListener('click', () => {
     document.querySelector('#pyqVector4').classList.toggle('rotate')
 })
 
+
+document.getElementsByClassName('navbar__install')[0].addEventListener('click',()=>{
+    alert('Extension is being updated')
+})
