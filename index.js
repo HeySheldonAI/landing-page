@@ -1,7 +1,11 @@
 const navbarDemos = document.querySelector('.navbar__demos')
 const demoArea = document.querySelector('.demoArea')
+const demoButton = document.querySelector('.cta__demo')
+
 
 navbarDemos.addEventListener('click', () => demoArea.scrollIntoView({ behavior: "smooth" }))
+demoButton.addEventListener('click', () => demoArea.scrollIntoView({ behavior: "smooth" }))
+
 
 // USAGE
 
@@ -78,6 +82,14 @@ document.getElementById('pyqVector4').addEventListener('click', () => {
 })
 
 
-document.getElementsByClassName('navbar__install')[0].addEventListener('click',()=>{
+document.querySelector('.navbar__install ').addEventListener('click',()=>{
+    alert('Extension is being updated')
+})
+
+document.querySelector(' .cta__install').addEventListener('click',()=>{
+    alert('Extension is being updated')
+})
+
+document.querySelector('.add-to-chrome').addEventListener('click',()=>{
     alert('Extension is being updated')
 })

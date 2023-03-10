@@ -43,6 +43,7 @@ body {
 
 .navbar__links li {
     list-style: none;
+    cursor: pointer;
 }
 
 .navbar__links li a {
